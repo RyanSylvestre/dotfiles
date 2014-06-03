@@ -1,8 +1,10 @@
 # Applications
 install node
 install zsh
-install vim
-
+install phantomjs
+install chromedriver
+install sitespeed.io
+install android-sdk
 
 # Homebrew Cask
 tap caskroom/cask
