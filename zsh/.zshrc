@@ -50,7 +50,7 @@ ZSH_THEME="afowler"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 plugins=(gitfast, brew, osx, bower, last-working-dir)
 
-source $ZSH/.oh-my-zsh.sh
+source $ZSH/oh-my-zsh.sh
 
 for file in ~/.{path,exports,aliases,functions,extra}; do
 	[ -r "$file" ] && [ -f "$file" ] && source "$file"
