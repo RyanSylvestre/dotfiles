@@ -2,3 +2,5 @@
 .viminfo
 .netrwhist
 *.swp
+vim/.vim/bundle/*
+~vim/.vim/bundle/Vundle.vim
