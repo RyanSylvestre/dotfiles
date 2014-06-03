@@ -1,0 +1,15 @@
+# Applications
+install node
+install zsh
+install vim
+
+
+# Homebrew Cask
+tap caskroom/cask
+install brew-cask
+
+# Homebrew Fonts
+tap caskroom/fonts
+install font-inconsolata-dz
+
+ 
