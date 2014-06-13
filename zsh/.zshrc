@@ -1,12 +1,13 @@
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
+export ZSH_CUSTOM=$HOME/.zsh/custom
 
 # Set theme
 ZSH_THEME="afowler"
 
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(gitfast brew osx bower last-working-dir)
+plugins=(gitfast brew osx bower last-working-dir grunt)
 
 source $ZSH/oh-my-zsh.sh
 

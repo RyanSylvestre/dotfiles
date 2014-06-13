@@ -7,3 +7,6 @@
 [submodule "zsh/.oh-my-zsh"]
 	path = zsh/.oh-my-zsh
 	url = https://github.com/robbyrussell/oh-my-zsh.git
+[submodule "zsh/.zsh/custom/plugins/grunt"]
+	path = zsh/.zsh/custom/plugins/grunt
+	url = https://github.com/yonchu/grunt-zsh-completion.git
