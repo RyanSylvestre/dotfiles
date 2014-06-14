@@ -36,3 +36,5 @@ export CHROME_BIN="/Applications/Google Chrome.app"
 
 # Byobu
 export BYOBU_PREFIX=$(brew --prefix)
+
+[ -f $HOME/.exports.local ] && source $HOME/.exports.local

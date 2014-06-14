@@ -11,14 +11,14 @@ plugins=(gitfast brew osx bower last-working-dir grunt)
 
 source $ZSH/oh-my-zsh.sh
 
-for file in ~/.{path,exports,aliases,functions,local}; do
+for file in ~/.{path,exports,aliases,functions}; do
 	[ -r "$file" ] && [ -f "$file" ] && source "$file"
 done
 unset file
 
 # User configuration
 
-export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/MacGPG2/bin"
+export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/MacGPG2/bin:$PATH"
 
 # Preferred editor for local and remote sessions
 # if [[ -n $SSH_CONNECTION ]]; then
