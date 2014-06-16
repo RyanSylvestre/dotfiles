@@ -29,3 +29,5 @@ export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/MacGPG2/bin
 
 # No Beeps!
 setopt NO_BEEP
+
+[ -f $HOME/.zshrc.local ] && source $HOME/.zshrc.local
