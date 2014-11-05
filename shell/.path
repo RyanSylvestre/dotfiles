@@ -1,1 +1,3 @@
 export PATH="$HOME/bin:$PATH"
+
+[ -f $HOME/.path.local ] && source $HOME/.path.local

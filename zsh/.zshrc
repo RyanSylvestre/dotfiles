@@ -19,3 +19,5 @@ unset file
 
 # No Beeps!
 setopt NO_BEEP
+
+[ -f $HOME/.zshrc.local ] && source $HOME/.zshrc.local
