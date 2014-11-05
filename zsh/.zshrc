@@ -10,21 +10,12 @@ plugins=(gitfast brew osx bower last-working-dir)
 
 source $ZSH/oh-my-zsh.sh
 
-for file in ~/.{path,exports,aliases,functions,local}; do
+for file in ~/.{path,localzsh,exports,aliases,functions,local}; do
 	[ -r "$file" ] && [ -f "$file" ] && source "$file"
 done
 unset file
 
 # User configuration
-
-export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/MacGPG2/bin"
-
-# Preferred editor for local and remote sessions
-# if [[ -n $SSH_CONNECTION ]]; then
-#   export EDITOR='vim'
-# else
-#   export EDITOR='mvim'
-# fi
 
 # No Beeps!
 setopt NO_BEEP
